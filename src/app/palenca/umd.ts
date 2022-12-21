@@ -1,0 +1,1 @@
+export { loadLink } from './load';
