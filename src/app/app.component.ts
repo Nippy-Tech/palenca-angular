@@ -21,8 +21,8 @@ export class AppComponent {
       borderRadius: '9999px',
     },
   };
-  private publicApiKey = 'public_c73e_4b01_8bc3_856375c41518';
-  private widgetId = '1498e5cd-f847-406a-9e69-ff273101b19d';
+  private publicApiKey = 'PUBLIC KEY';
+  private widgetId = 'WIDGET ID';
 
   ngOnInit() {
     loadLink(this.publicApiKey, this.widgetId).then((link) => {
